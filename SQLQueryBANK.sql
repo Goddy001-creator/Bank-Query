@@ -1,4 +1,4 @@
-/*
+
 CREATE DATABASE Bank;
 GO
 USE Bank;
@@ -10,8 +10,8 @@ CREATE TABLE Users(UserId INT PRIMARY KEY, UserName VARCHAR(50), UserEmail VARCH
 GO
 CREATE TABLE Products(ProductId INT PRIMARY KEY, ProductName VARCHAR(50), ProductType VARCHAR(50));
 GO
-*/
-/*USE Bank;
+
+USE Bank;
 GO
 
 INSERT INTO Accounts(AccountId, AccountHolderName, Balance)
@@ -26,8 +26,8 @@ VALUES (1, 'John Doe', 1000.00),
 (9, 'Linda Taylor', 5000.00),
 (10, 'Robert Anderson', 5500.25);
 GO
-*/
-/*USE Bank;
+
+USE Bank;
 GO
 
 INSERT INTO Users(UserId, UserName, UserEmail)
@@ -42,8 +42,8 @@ VALUES (1, 'John Doe', 'john.doe@example.com'),
 (9, 'Linda Taylor', 'linda.taylor@example.com'),
 (10, 'Robert Anderson', 'robert.anderson@example.com');
 GO
-*/
-/*Use Bank;
+
+Use Bank;
 GO
 
 INSERT INTO Products(ProductId, ProductName, ProductType)
@@ -60,4 +60,3 @@ VALUES (1, 'Savings Account', 'Banking'),
 GO
 
 SELECT * FROM Products;
-*/
